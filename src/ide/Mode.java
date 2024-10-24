@@ -38,6 +38,10 @@ public enum Mode {
 
     managerNOTHAVE(0x41),
     managerHAVE(0x42),
+
+    runnerNOTHAVE(0x51),
+    runnerHAVE(0x52),
+    runnerError(0x53),
     ;
 
     Mode (int v) {
